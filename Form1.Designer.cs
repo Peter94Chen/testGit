@@ -35,6 +35,7 @@
             this.txt_target_port = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_start
@@ -104,11 +105,21 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Status";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(649, 341);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_target_port);
@@ -133,6 +144,7 @@
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox txt_target_IP;
         public System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
